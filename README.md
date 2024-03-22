@@ -6,8 +6,8 @@ into the use of Poetry to better manage projects and dependencies.
 This is a CLI project but might be updated to use Flask in the future (also to gain XP).
 
 ## Setup
-1. Install Poetry
-2. Create a Virtual Environement and Activate it
-3. Run `Poetry install` to install all the required dependencies
-
-You can now run the project.
+1. Install Poetry using `pip install poetry`.
+2. Navigate into the project's folder and create a virtual environement using `python3 -m venv <environment_name>`.
+3. Activate the environment using `source <environment_name>/bin/activate`.
+4. Run `Poetry install` to install all the required dependencies.
+5. Run the project using `poetry run python3 githubapiapp/__init__.py`.
